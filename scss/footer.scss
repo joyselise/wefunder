@@ -1,0 +1,90 @@
+footer {
+    padding-top: 48px;
+    padding-bottom: 71px;
+    .container {
+        max-width: 1280px;
+    }
+    .footer-text {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .impact-report-btn {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+
+        color: #3077b8;
+        border: 1px solid #3077b8;
+        border-radius: 3px;
+        padding: 18px 0px;
+        width: 100%;
+        margin-top: 12px;
+    }
+    .footer-nav {
+        li {
+            a {
+                font-family: "Metropolis";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #585858;
+                i {
+                    margin-right: 4px;
+                }
+            }
+            &:not(:last-child) {
+                margin-bottom: 27px;
+            }
+        }
+    }
+    .footer-bottom {
+        margin-top: 85px;
+        p {
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #8b8b8b;
+        }
+        .footer-horizontal-nav {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            li {
+                a {
+                    font-family: "Metropolis";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 0.6px;
+                    text-transform: uppercase;
+                    color: #aeaeae;
+                }
+            }
+        }
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            gap: 30px;
+            li {
+                a {
+                    color: #aeaeae;
+                }
+            }
+        }
+    }
+}
