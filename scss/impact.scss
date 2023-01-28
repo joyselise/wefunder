@@ -1,10 +1,10 @@
 .impact-report-section {
-    align-items: flex-start;
     flex-wrap: wrap;
     margin: 0px;
     .red-bg {
         width: 33%;
         background: #eb503f;
+
         h2 {
             font-family: "Metropolis";
             font-style: normal;
@@ -42,5 +42,63 @@
     .white-bg {
         width: 66%;
         padding: 6rem;
+        .counter-wrapper {
+            h3 {
+                font-family: "Metropolis";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+
+                color: #0c3860;
+            }
+            p {
+                font-family: "Metropolis";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-transform: uppercase;
+                color: #0c3860;
+                margin-top: 9px;
+            }
+        }
+
+        .impact-report-btn {
+            background: #3077b8;
+            border-radius: 3px;
+            padding: 17px 0px;
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+
+            color: #ffffff;
+            width: 40%;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 24px;
+        }
+        img {
+            margin-bottom: 30px;
+        }
+        p {
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            color: #1a1a1a;
+            a {
+                text-decoration: underline;
+            }
+        }
+        .raised {
+            color: #eb503f;
+        }
     }
 }

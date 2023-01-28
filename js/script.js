@@ -2,7 +2,7 @@
 const swiper = new Swiper(".raising-now-slider", {
     // Optional parameters
     direction: "horizontal",
-    loop: false,
+    loop: true,
 
     // Navigation arrows
     navigation: {
