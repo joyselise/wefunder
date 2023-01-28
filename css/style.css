@@ -413,3 +413,19 @@ a {
   color: #e89f11;
   margin-top: 4px;
 }
+.testimonial-section .testimonial-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.testimonial-section .testimonial-wrapper img {
+  border: 1px solid rgba(242, 245, 248, 0.5);
+  border-radius: 50%;
+}
+
+.contact-section {
+  padding: 65px 0px;
+  background: #fbfbfb;
+}

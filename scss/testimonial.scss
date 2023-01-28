@@ -21,4 +21,15 @@
         color: #e89f11;
         margin-top: 4px;
     }
+    .testimonial-wrapper {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        img {
+            border: 1px solid rgba(242, 245, 248, 0.5);
+            border-radius: 50%;
+        }
+    }
 }
