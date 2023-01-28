@@ -461,3 +461,50 @@ a {
 .contact-section .social-login a img {
   margin-right: 60px;
 }
+.contact-section .bar {
+  height: 260px;
+  width: 2px;
+  background-color: #eff2f7;
+  display: block;
+  margin: 0 auto;
+}
+.contact-section form .form-control {
+  background: #ffffff;
+  border: 1px solid #d4ddea;
+  border-radius: 8px;
+  padding: 20px 12px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b97a7;
+}
+.contact-section form .form-control::-moz-placeholder {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b97a7;
+}
+.contact-section form .form-control::placeholder {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b97a7;
+}
+.contact-section form .btn-sign-up {
+  padding: 13px 0px;
+  width: 100%;
+  background: #0a76d1;
+  border-radius: 3px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
