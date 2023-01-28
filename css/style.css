@@ -92,6 +92,91 @@ a {
   background-color: #3c3c3c;
 }
 
+.hero-section {
+  background-color: #1a1a1a;
+  padding: 17px 0px;
+}
+.hero-section .left {
+  padding-left: 3%;
+}
+.hero-section .left h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.04em;
+  max-width: 470px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.hero-section .left p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 496px;
+}
+.hero-section .left .join-btn {
+  background: #eb503f;
+  border: 1px solid #eb503f;
+  border-radius: 3px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 27px;
+}
+.hero-section .hero-slider .swiper-slide {
+  width: 450px !important;
+}
+.hero-section .hero-slider .swiper-slide h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 17px;
+}
+.hero-section .hero-slider .swiper-slide p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 8px;
+}
+.hero-section .swiper-actions {
+  margin-top: 17px;
+  gap: 8px;
+}
+.hero-section .swiper-actions .hero-prev,
+.hero-section .swiper-actions .hero-next {
+  border: 1px solid #fff;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border-style: dotted;
+}
+.hero-section .swiper-actions .hero-prev i,
+.hero-section .swiper-actions .hero-next i {
+  margin-left: 15px;
+  color: #eb503f;
+}
+.hero-section .swiper-actions .swiper-button-disabled {
+  border: 1px solid rgba(255, 255, 255, 0.25) i;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
 .raising-now-section {
   padding-top: 132px;
   padding-bottom: 74px;

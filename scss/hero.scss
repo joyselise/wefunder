@@ -1,0 +1,86 @@
+.hero-section {
+    background-color: #1a1a1a;
+    padding: 17px 0px;
+    .left {
+        padding-left: 3%;
+        h1 {
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 60px;
+            letter-spacing: 0.04em;
+            max-width: 470px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.75);
+            max-width: 496px;
+        }
+        .join-btn {
+            background: #eb503f;
+            border: 1px solid #eb503f;
+            border-radius: 3px;
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            padding: 15px;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-top: 27px;
+        }
+    }
+    .hero-slider {
+        .swiper-slide {
+            width: 450px !important;
+            h3 {
+                font-family: "Metropolis";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #ffffff;
+                margin-top: 17px;
+            }
+            p {
+                font-family: "Metropolis";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.75);
+                margin-top: 8px;
+            }
+        }
+    }
+    .swiper-actions {
+        margin-top: 17px;
+        gap: 8px;
+        .hero-prev,
+        .hero-next {
+            border: 1px solid #fff;
+            height: 48px;
+            width: 48px;
+            border-radius: 50%;
+            border-style: dotted;
+            i {
+                margin-left: 15px;
+                color: #eb503f;
+            }
+        }
+        .swiper-button-disabled {
+            border: 1px solid rgba(255, 255, 255, 0.25) i {
+                color: rgba(255, 255, 255, 0.25);
+            }
+        }
+    }
+}
