@@ -1,4 +1,38 @@
 .contact-section {
     padding: 65px 0px;
     background: #fbfbfb;
+    h2 {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        color: #000000;
+    }
+    p {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-top: 12px;
+    }
+    .social-login {
+        a {
+            padding: 14px 16px;
+            border: 1px solid #d3d3d3;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            img {
+                margin-right: 60px;
+            }
+        }
+    }
 }
