@@ -52,7 +52,7 @@ const swiper = new Swiper(".raising-now-slider", {
             spaceBetween: 27,
         },
         // when window width is >= 640px
-        640: {
+        769: {
             slidesPerView: 3,
             spaceBetween: 27,
         },

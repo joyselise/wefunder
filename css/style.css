@@ -773,3 +773,49 @@ footer .footer-bottom .social-icons {
 footer .footer-bottom .social-icons li a {
   color: #aeaeae;
 }
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .hero-section .left {
+    margin-bottom: 30px;
+  }
+  .impact-report-section .red-bg,
+  .impact-report-section .white-bg {
+    padding: 2rem;
+  }
+  .contact-section .bar {
+    height: 2px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .angel-investor-box {
+    margin-top: 30px;
+  }
+  .site-header .navbar-nav {
+    align-items: flex-start;
+  }
+  .navbar-toggler {
+    border-color: #fff;
+  }
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .impact-report-section {
+    flex-wrap: wrap;
+  }
+  .impact-report-section .red-bg {
+    width: 100%;
+  }
+  .impact-report-section .white-bg {
+    width: 100%;
+  }
+  footer .footer-bottom .social-icons {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .impact-report-section .white-bg .impact-report-btn {
+    width: 100%;
+  }
+}
