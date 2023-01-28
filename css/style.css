@@ -14,14 +14,33 @@ button {
   margin: 0px;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+@media (min-width: 768px) {
+  .ps-lg-6 {
+    padding-left: 6rem;
+  }
+  .pe-lg-6 {
+    padding-right: 6rem;
+  }
+}
 .site-header {
   background-color: #201c1c;
   padding-bottom: 3px;
 }
 .site-header .navbar-nav {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .site-header .navbar-brand {
   margin-right: 57px;
@@ -45,28 +64,7 @@ button {
   background-color: transparent;
   border: unset;
 }
-.site-header .nav-item form .form-control::-webkit-input-placeholder {
-  font-family: "Metropolis";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #585858;
-}
 .site-header .nav-item form .form-control::-moz-placeholder {
-  font-family: "Metropolis";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #585858;
-}
-.site-header .nav-item form .form-control:-ms-input-placeholder {
-  font-family: "Metropolis";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #585858;
-}
-.site-header .nav-item form .form-control::-ms-input-placeholder {
   font-family: "Metropolis";
   font-style: normal;
   font-weight: 400;
@@ -97,8 +95,321 @@ button {
 .raising-now-section {
   padding-top: 132px;
   padding-bottom: 74px;
-  background-image: url("../img/raising-bg.png");
+  background-image: url(/images/raising-bg.png?8bb4d3345b193e8afffb2daea8c2eb98);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.raising-now-section .section-header {
+  margin-bottom: 38px;
+}
+.raising-now-section .section-header h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.raising-now-section .section-header .swiper-actions {
+  gap: 8px;
+}
+.raising-now-section .section-header .swiper-actions .raising-prev,
+.raising-now-section .section-header .swiper-actions .raising-next {
+  border: 1px solid #1a1a1a;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.raising-now-section .section-header .swiper-actions .raising-prev i,
+.raising-now-section .section-header .swiper-actions .raising-next i {
+  margin-left: 7px;
+  color: #1a1a1a;
+}
+.raising-now-section .section-header .swiper-actions .swiper-button-disabled {
+  border: 1px solid #aeaeae;
+}
+.raising-now-section .section-header .swiper-actions .swiper-button-disabled i {
+  color: #aeaeae;
+}
+.raising-now-section .card {
+  background: #ffffff;
+  box-shadow: 0px 1.66603px 6.66413px rgba(27, 35, 52, 0.12);
+}
+.raising-now-section .card .card-img-top {
+  height: 178px;
+}
+.raising-now-section .card .card-body {
+  padding: 11px;
+}
+.raising-now-section .card .card-body .card-title {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.33px;
+  line-height: 17px;
+  color: #1e293b;
+  max-width: 160px;
+}
+.raising-now-section .card .card-body .card-text {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.8292px;
+  line-height: 13px;
+  color: #475569;
+  margin-bottom: 5px;
+}
+.raising-now-section .card .card-body .tag p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.9943px;
+  line-height: 17px;
+  color: #a6d388;
+}
+.raising-now-section .card .card-footer {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 11px;
+}
+.raising-now-section .card .card-footer .left {
+  gap: 13px;
+}
+.raising-now-section .card .card-footer .left div {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.3283px;
+  line-height: 17px;
+  color: #475569;
+}
+.raising-now-section .card .card-footer .right {
+  gap: 13px;
+}
+.raising-now-section .card .card-footer .right button {
+  border: 0.833016px solid #cbd5e1;
+  border-radius: 6.66413px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.raising-now-section .card .card-footer .right .btn-orange {
+  border: 0.833016px solid #eb503f;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.3283px;
+  line-height: 17px;
+  color: #ef6c36;
+}
+.raising-now-section .see-all-company-btn {
+  margin-top: 115px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border: 1px solid #3077b8;
+  border-radius: 3px;
+  color: #3077b8;
+  padding: 13px 45px;
+}
+
+.coffee-shop-to-car-section {
+  padding: 64px 0px;
+}
+.coffee-shop-to-car-section .container {
+  max-width: 1024px;
+}
+.coffee-shop-to-car-section h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #16263d;
+  margin-bottom: 11px;
+}
+.coffee-shop-to-car-section p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #657285;
+  margin-bottom: 50px;
+}
+.coffee-shop-to-car-section .category-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.coffee-shop-to-car-section .category-wrapper button {
+  background: #3077b8;
+  border-radius: 0;
+  padding: 17px 0px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.coffee-shop-to-car-section .category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.coffee-shop-to-car-section .category .category-items {
+  background: #f5f5f5;
+  border-radius: 3px;
+  padding: 10px 16px;
+}
+.coffee-shop-to-car-section .category .category-items a {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #475260;
+}
+.coffee-shop-to-car-section .find-more-category-btn {
+  margin-top: 32px;
+  border: 1px solid #3077b8;
+  border-radius: 3px;
+  padding: 9.6001px 38.4563px 8.9999px 36.8px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #3077b8;
+}
+
+.features-section h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #16263d;
+  margin-bottom: 11px;
+}
+.features-section h2 span {
+  color: #eb503f;
+}
+.features-section p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #657285;
+  margin-bottom: 50px;
+}
+.features-section .image-box img {
+  display: block;
+  margin: 0 auto;
+  height: 110px;
+}
+.features-section .image-box h5 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+.features-section .image-box p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #657285;
+}
+
+.angel-investor-section {
+  background: #1a1a1a;
+  padding: 75px 0px;
+}
+.angel-investor-section h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+}
+.angel-investor-section h2 span {
+  color: #eb503f;
+}
+.angel-investor-section p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 660px;
+}
+.angel-investor-section .angel-investor-box img {
+  margin-bottom: 22px;
+}
+.angel-investor-section .angel-investor-box p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.angel-investor-section .angel-investor-box h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.angel-investor-section .angel-investor-box h4 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.testimonial-section {
+  padding: 75px 0px;
+  background: #1a1a1a;
+}
+.testimonial-section .container {
+  max-width: 1280px;
+}
+.testimonial-section h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.testimonial-section p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #e89f11;
+  margin-top: 4px;
 }

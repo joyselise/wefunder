@@ -1,0 +1,43 @@
+.features-section {
+    h2 {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #16263d;
+        margin-bottom: 11px;
+        span {
+            color: #eb503f;
+        }
+    }
+    p {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #657285;
+        margin-bottom: 50px;
+    }
+    .image-box {
+        img {
+            display: block;
+            margin: 0 auto;
+            height: 110px;
+        }
+        h5 {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 18px;
+        }
+        p {
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #657285;
+        }
+    }
+}
