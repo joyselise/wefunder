@@ -1,0 +1,53 @@
+.site-header {
+    background-color: #201c1c;
+    padding-bottom: 3px;
+    .navbar-nav {
+        align-items: center;
+    }
+    .navbar-brand {
+        margin-right: 57px;
+    }
+    #navbarSupportedContent {
+        margin-top: 10px;
+    }
+    .nav-item {
+        .nav-link {
+            font-family: "Metropolis";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #e8e8e8;
+        }
+        &:not(:last-child) {
+            margin-right: 48px;
+        }
+        form {
+            .form-control {
+                padding: 0px;
+                background-color: transparent;
+                border: unset;
+                &::placeholder {
+                    font-family: "Metropolis";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #585858;
+                }
+            }
+        }
+    }
+    .nav-divider {
+        position: relative;
+        margin-right: 100px !important;
+        &::after {
+            content: "";
+            height: 32px;
+            width: 2px;
+            position: absolute;
+            top: 0;
+            right: -50px;
+            background-color: #3c3c3c;
+        }
+    }
+}

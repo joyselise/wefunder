@@ -1,0 +1,104 @@
+body,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  padding: 0px;
+  margin: 0px;
+}
+
+.site-header {
+  background-color: #201c1c;
+  padding-bottom: 3px;
+}
+.site-header .navbar-nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-header .navbar-brand {
+  margin-right: 57px;
+}
+.site-header #navbarSupportedContent {
+  margin-top: 10px;
+}
+.site-header .nav-item .nav-link {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e8e8e8;
+}
+.site-header .nav-item:not(:last-child) {
+  margin-right: 48px;
+}
+.site-header .nav-item form .form-control {
+  padding: 0px;
+  background-color: transparent;
+  border: unset;
+}
+.site-header .nav-item form .form-control::-webkit-input-placeholder {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #585858;
+}
+.site-header .nav-item form .form-control::-moz-placeholder {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #585858;
+}
+.site-header .nav-item form .form-control:-ms-input-placeholder {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #585858;
+}
+.site-header .nav-item form .form-control::-ms-input-placeholder {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #585858;
+}
+.site-header .nav-item form .form-control::placeholder {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #585858;
+}
+.site-header .nav-divider {
+  position: relative;
+  margin-right: 100px !important;
+}
+.site-header .nav-divider::after {
+  content: "";
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  top: 0;
+  right: -50px;
+  background-color: #3c3c3c;
+}
+
+.raising-now-section {
+  padding-top: 132px;
+  padding-bottom: 74px;
+  background-image: url("../img/raising-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
