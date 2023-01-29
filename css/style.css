@@ -177,6 +177,110 @@ a {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
+.blog-section {
+  padding: 75px 0px;
+}
+.blog-section h2 {
+  font-size: 1.5rem;
+  color: #000;
+  font-family: "Metropolis";
+  font-weight: 400;
+}
+.blog-section .swiper-actions {
+  margin-top: 17px;
+  gap: 8px;
+}
+.blog-section .swiper-actions .blog-btn {
+  border: 1px solid #eb503f;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border-style: dotted;
+}
+.blog-section .swiper-actions .blog-btn i {
+  margin-left: 15px;
+  color: #eb503f;
+}
+.blog-section .swiper-actions .swiper-button-disabled {
+  border: 1px solid rgba(255, 255, 255, 0.25) i;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.blog-section .card {
+  height: 556px;
+  border: 1px solid #eff2f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 5px;
+}
+.blog-section .card:hover .card-body {
+  top: 200px;
+}
+.blog-section .card .card-body {
+  position: absolute;
+  top: 252px;
+  padding: 20px;
+  background-color: #fff;
+}
+.blog-section .card .card-body .avatar {
+  position: absolute;
+  right: 15px;
+  top: -34px;
+}
+.blog-section .card .card-body .avatar img {
+  height: 65px;
+  width: 65px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.blog-section .card .card-body .card-category {
+  margin-bottom: 10px;
+}
+.blog-section .card .card-body .card-category h4 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Metropolis";
+  color: rgb(101, 114, 133);
+}
+.blog-section .card .card-body .card-title {
+  color: rgb(22, 38, 61);
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Metropolis";
+}
+.blog-section .card .card-body .card-text {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Metropolis";
+  color: rgb(101, 114, 133);
+  margin-bottom: 108px;
+}
+.blog-section .card .card-body .categories {
+  margin-bottom: 15px;
+}
+.blog-section .card .card-body .categories a {
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(252, 231, 248);
+  border: 0;
+  color: #000;
+}
+.blog-section .card .card-body .card-footer {
+  background-color: #fff;
+}
+.blog-section .card .card-body .card-footer p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: rgb(101, 115, 133);
+}
+.blog-section .card .card-body .card-footer p span {
+  font-weight: 700;
+  color: #000;
+}
+
 .raising-now-section {
   padding-top: 132px;
   padding-bottom: 74px;

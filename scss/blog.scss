@@ -1,0 +1,106 @@
+.blog-section {
+    padding: 75px 0px;
+    h2 {
+        font-size: 1.5rem;
+        color: #000;
+        font-family: "Metropolis";
+        font-weight: 400;
+    }
+    .swiper-actions {
+        margin-top: 17px;
+        gap: 8px;
+        .blog-btn {
+            border: 1px solid #eb503f;
+            height: 48px;
+            width: 48px;
+            border-radius: 50%;
+            border-style: dotted;
+            i {
+                margin-left: 15px;
+                color: #eb503f;
+            }
+        }
+        .swiper-button-disabled {
+            border: 1px solid rgba(255, 255, 255, 0.25) i {
+                color: rgba(255, 255, 255, 0.25);
+            }
+        }
+    }
+    .card {
+        height: 556px;
+        border: 1px solid #eff2f7;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 6%), 0 4px 6px rgb(0 0 0 / 10%);
+        border-radius: 12px;
+        margin: 5px;
+        &:hover {
+            .card-body {
+                top: 200px;
+            }
+        }
+        .card-body {
+            position: absolute;
+            top: 252px;
+            padding: 20px;
+            background-color: #fff;
+            .avatar {
+                position: absolute;
+                right: 15px;
+                top: -34px;
+                img {
+                    height: 65px;
+                    width: 65px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                }
+            }
+            .card-category {
+                margin-bottom: 10px;
+                h4 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: "Metropolis";
+                    color: rgb(101, 114, 133);
+                }
+            }
+            .card-title {
+                color: rgb(22, 38, 61);
+                font-weight: 700;
+                font-size: 18px;
+                font-family: "Metropolis";
+            }
+            .card-text {
+                font-size: 14px;
+                font-weight: 400;
+                font-family: "Metropolis";
+                color: rgb(101, 114, 133);
+                margin-bottom: 108px;
+            }
+            .categories {
+                margin-bottom: 15px;
+                a {
+                    text-transform: uppercase;
+                    font-size: 10px;
+                    padding-top: 4px;
+                    padding-bottom: 4px;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                    background-color: rgb(252, 231, 248);
+                    border: 0;
+                    color: #000;
+                }
+            }
+            .card-footer {
+                background-color: #fff;
+                p {
+                    font-size: 0.875rem;
+                    font-weight: 300;
+                    color: rgb(101, 115, 133);
+                    span {
+                        font-weight: 700;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
